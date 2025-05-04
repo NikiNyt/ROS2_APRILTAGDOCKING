@@ -1,5 +1,4 @@
 [console_scripts]
-apriltag_docking = turtlebot3_autorace_mission.docking_mission:main
 avoid_construction = turtlebot3_autorace_mission.avoid_construction:main
 control_lane = turtlebot3_autorace_mission.control_lane:main
 mission_tunnel = turtlebot3_autorace_mission.mission_tunnel:main

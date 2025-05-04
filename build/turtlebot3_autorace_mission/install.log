@@ -1,10 +1,8 @@
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/__init__.py
-/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/docking_mission.py
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/mission_tunnel.py
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/avoid_construction.py
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/control_lane.py
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/__pycache__/__init__.cpython-310.pyc
-/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/__pycache__/docking_mission.cpython-310.pyc
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/__pycache__/mission_tunnel.cpython-310.pyc
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/__pycache__/avoid_construction.cpython-310.pyc
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/__pycache__/control_lane.cpython-310.pyc
@@ -23,7 +21,6 @@
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission-1.2.1-py3.10.egg-info/SOURCES.txt
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission-1.2.1-py3.10.egg-info/zip-safe
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission-1.2.1-py3.10.egg-info/top_level.txt
-/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission/apriltag_docking
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission/avoid_construction
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission/control_lane
 /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission/mission_tunnel

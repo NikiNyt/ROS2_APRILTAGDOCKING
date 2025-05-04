@@ -18,5 +18,4 @@ resource/turtlebot3_autorace_mission
 turtlebot3_autorace_mission/__init__.py
 turtlebot3_autorace_mission/avoid_construction.py
 turtlebot3_autorace_mission/control_lane.py
-turtlebot3_autorace_mission/docking_mission.py
 turtlebot3_autorace_mission/mission_tunnel.py
