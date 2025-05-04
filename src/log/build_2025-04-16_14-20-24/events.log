@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (-) JobUnselected: {'identifier': 'apriltag_ros'}
+[0.000345] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000363] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000377] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000390] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000402] (-) JobUnselected: {'identifier': 'turtlebot3_autorace'}
+[0.000414] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_camera'}
+[0.000426] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_detect'}
+[0.000437] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_mission'}
+[0.000449] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000460] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000471] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000482] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000493] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000504] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000516] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000527] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000538] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000550] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000562] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000577] (apriltag) JobQueued: {'identifier': 'apriltag', 'dependencies': OrderedDict()}
+[0.000594] (apriltag) JobStarted: {'identifier': 'apriltag'}
+[0.020159] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'cmake'}
+[0.020263] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '/home/nikita/turtlebot3_ws/src/apriltag', '-DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/src/install/apriltag'], 'cwd': '/home/nikita/turtlebot3_ws/src/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikita'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nikita'), ('OLDPWD', '/home/nikita/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '10609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install:/home/nikita/AMR_coding/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nikita'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nikita-VirtualBox:@/tmp/.ICE-unix/1081,unix/nikita-VirtualBox:/tmp/.ICE-unix/1081'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2755afc_05b4_4a96_813d_93bc023ed91f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.44A042'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_simulations:/home/nikita/turtlebot3_ws/install/turtlebot3_bringup:/home/nikita/turtlebot3_ws/install/turtlebot3_node:/home/nikita/turtlebot3_ws/install/turtlebot3_navigation2:/home/nikita/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs:/home/nikita/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/install/turtlebot3_description:/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikita/turtlebot3_ws/src/build/apriltag'), ('TURTLEBOT3_MODEL', 'burger_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/nikita/{your_ws}/build/turtlebot3_gazebo:/home/nikita/{your_ws}/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikita/turtlebot3_ws/build/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/nikita/AMR_coding/install/webcam/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/turtle_distance_package/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/turtle_distance_node/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/trt_rect_pkg/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/publisher_node/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3:/home/nikita/turtlebot3_ws/install/turtlebot3_simulations:/home/nikita/turtlebot3_ws/install/turtlebot3_bringup:/home/nikita/turtlebot3_ws/install/turtlebot3_node:/home/nikita/turtlebot3_ws/install/turtlebot3_navigation2:/home/nikita/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs:/home/nikita/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/install/turtlebot3_description:/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.098534] (-) TimerEvent: {}
+[0.190306] (apriltag) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199295] (-) TimerEvent: {}
+[0.209629] (apriltag) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300525] (-) TimerEvent: {}
+[0.322430] (apriltag) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.334661] (apriltag) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.335015] (apriltag) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.338486] (apriltag) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.338727] (apriltag) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[0.339903] (apriltag) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.400602] (-) TimerEvent: {}
+[0.456321] (apriltag) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.456576] (apriltag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.501510] (-) TimerEvent: {}
+[0.568579] (apriltag) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.570738] (apriltag) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.601794] (-) TimerEvent: {}
+[0.703392] (-) TimerEvent: {}
+[0.803887] (-) TimerEvent: {}
+[0.905242] (-) TimerEvent: {}
+[1.006068] (-) TimerEvent: {}
+[1.107173] (-) TimerEvent: {}
+[1.207695] (-) TimerEvent: {}
+[1.310711] (-) TimerEvent: {}
+[1.411154] (-) TimerEvent: {}
+[1.511530] (-) TimerEvent: {}
+[1.612412] (-) TimerEvent: {}
+[1.653161] (apriltag) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.667099] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.712617] (-) TimerEvent: {}
+[1.786957] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.805115] (apriltag) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.805312] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.805378] (apriltag) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.805438] (apriltag) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.812866] (-) TimerEvent: {}
+[1.815068] (apriltag) StdoutLine: {'line': b'-- Generating done\n'}
+[1.820547] (apriltag) StdoutLine: {'line': b'-- Build files have been written to: /home/nikita/turtlebot3_ws/src/build/apriltag\n'}
+[1.831298] (apriltag) CommandEnded: {'returncode': 0}
+[1.831813] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'build'}
+[1.831845] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nikita/turtlebot3_ws/src/build/apriltag', '--', '-j8', '-l8'], 'cwd': '/home/nikita/turtlebot3_ws/src/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikita'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nikita'), ('OLDPWD', '/home/nikita/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '10609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install:/home/nikita/AMR_coding/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nikita'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nikita-VirtualBox:@/tmp/.ICE-unix/1081,unix/nikita-VirtualBox:/tmp/.ICE-unix/1081'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2755afc_05b4_4a96_813d_93bc023ed91f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.44A042'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_simulations:/home/nikita/turtlebot3_ws/install/turtlebot3_bringup:/home/nikita/turtlebot3_ws/install/turtlebot3_node:/home/nikita/turtlebot3_ws/install/turtlebot3_navigation2:/home/nikita/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs:/home/nikita/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/install/turtlebot3_description:/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikita/turtlebot3_ws/src/build/apriltag'), ('TURTLEBOT3_MODEL', 'burger_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/nikita/{your_ws}/build/turtlebot3_gazebo:/home/nikita/{your_ws}/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikita/turtlebot3_ws/build/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/nikita/AMR_coding/install/webcam/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/turtle_distance_package/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/turtle_distance_node/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/trt_rect_pkg/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/publisher_node/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3:/home/nikita/turtlebot3_ws/install/turtlebot3_simulations:/home/nikita/turtlebot3_ws/install/turtlebot3_bringup:/home/nikita/turtlebot3_ws/install/turtlebot3_node:/home/nikita/turtlebot3_ws/install/turtlebot3_navigation2:/home/nikita/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs:/home/nikita/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/install/turtlebot3_description:/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble')]), 'shell': False}
+[1.899854] (apriltag) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o\x1b[0m\n'}
+[1.912923] (-) TimerEvent: {}
+[2.013614] (-) TimerEvent: {}
+[2.115672] (-) TimerEvent: {}
+[2.216404] (-) TimerEvent: {}
+[2.317243] (-) TimerEvent: {}
+[2.417578] (-) TimerEvent: {}
+[2.517876] (-) TimerEvent: {}
+[2.619758] (-) TimerEvent: {}
+[2.720597] (-) TimerEvent: {}
+[2.750946] (apriltag) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o\x1b[0m\n'}
+[2.821013] (-) TimerEvent: {}
+[2.921493] (-) TimerEvent: {}
+[3.015882] (apriltag) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o\x1b[0m\n'}
+[3.021792] (-) TimerEvent: {}
+[3.122588] (-) TimerEvent: {}
+[3.199347] (apriltag) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o\x1b[0m\n'}
+[3.222985] (-) TimerEvent: {}
+[3.323408] (-) TimerEvent: {}
+[3.348945] (apriltag) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o\x1b[0m\n'}
+[3.426018] (-) TimerEvent: {}
+[3.527558] (-) TimerEvent: {}
+[3.628221] (-) TimerEvent: {}
+[3.728961] (-) TimerEvent: {}
+[3.830417] (-) TimerEvent: {}
+[3.933334] (-) TimerEvent: {}
+[3.962527] (apriltag) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o\x1b[0m\n'}
+[4.034088] (-) TimerEvent: {}
+[4.052401] (apriltag) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o\x1b[0m\n'}
+[4.134279] (-) TimerEvent: {}
+[4.236326] (-) TimerEvent: {}
+[4.314115] (apriltag) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o\x1b[0m\n'}
+[4.337116] (-) TimerEvent: {}
+[4.439973] (-) TimerEvent: {}
+[4.542316] (-) TimerEvent: {}
+[4.643057] (-) TimerEvent: {}
+[4.743879] (-) TimerEvent: {}
+[4.845059] (-) TimerEvent: {}
+[4.909995] (apriltag) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o\x1b[0m\n'}
+[4.945448] (-) TimerEvent: {}
+[4.984011] (apriltag) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/pthreads_cross.c.o\x1b[0m\n'}
+[5.023035] (apriltag) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o\x1b[0m\n'}
+[5.047686] (-) TimerEvent: {}
+[5.148573] (-) TimerEvent: {}
+[5.240301] (apriltag) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o\x1b[0m\n'}
+[5.248888] (-) TimerEvent: {}
+[5.301980] (apriltag) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o\x1b[0m\n'}
+[5.349342] (-) TimerEvent: {}
+[5.377349] (apriltag) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o\x1b[0m\n'}
+[5.410547] (apriltag) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o\x1b[0m\n'}
+[5.449673] (-) TimerEvent: {}
+[5.511427] (apriltag) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o\x1b[0m\n'}
+[5.550164] (-) TimerEvent: {}
+[5.565493] (apriltag) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o\x1b[0m\n'}
+[5.650472] (-) TimerEvent: {}
+[5.731084] (apriltag) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o\x1b[0m\n'}
+[5.750796] (-) TimerEvent: {}
+[5.851588] (apriltag) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o\x1b[0m\n'}
+[5.851912] (-) TimerEvent: {}
+[5.916503] (apriltag) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o\x1b[0m\n'}
+[5.952401] (-) TimerEvent: {}
+[5.984445] (apriltag) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o\x1b[0m\n'}
+[6.054271] (-) TimerEvent: {}
+[6.057895] (apriltag) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o\x1b[0m\n'}
+[6.125055] (apriltag) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o\x1b[0m\n'}
+[6.154810] (-) TimerEvent: {}
+[6.187768] (apriltag) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o\x1b[0m\n'}
+[6.255155] (-) TimerEvent: {}
+[6.356910] (-) TimerEvent: {}
+[6.394764] (apriltag) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o\x1b[0m\n'}
+[6.457270] (-) TimerEvent: {}
+[6.544521] (apriltag) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o\x1b[0m\n'}
+[6.558098] (-) TimerEvent: {}
+[6.618188] (apriltag) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o\x1b[0m\n'}
+[6.660434] (-) TimerEvent: {}
+[6.761255] (-) TimerEvent: {}
+[6.791968] (apriltag) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o\x1b[0m\n'}
+[6.861359] (-) TimerEvent: {}
+[6.962259] (-) TimerEvent: {}
+[6.971123] (apriltag) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o\x1b[0m\n'}
+[7.066277] (-) TimerEvent: {}
+[7.165739] (apriltag) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o\x1b[0m\n'}
+[7.166589] (-) TimerEvent: {}
+[7.267051] (-) TimerEvent: {}
+[7.362952] (apriltag) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o\x1b[0m\n'}
+[7.368966] (-) TimerEvent: {}
+[7.469829] (-) TimerEvent: {}
+[7.570169] (-) TimerEvent: {}
+[7.671028] (-) TimerEvent: {}
+[7.773818] (-) TimerEvent: {}
+[7.874650] (-) TimerEvent: {}
+[7.975648] (-) TimerEvent: {}
+[8.076294] (-) TimerEvent: {}
+[8.177176] (-) TimerEvent: {}
+[8.278608] (-) TimerEvent: {}
+[8.294061] (apriltag) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o\x1b[0m\n'}
+[8.378970] (-) TimerEvent: {}
+[8.480318] (-) TimerEvent: {}
+[8.526740] (apriltag) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libapriltag.so\x1b[0m\n'}
+[8.581225] (-) TimerEvent: {}
+[8.630365] (apriltag) StdoutLine: {'line': b'[ 80%] Built target apriltag\n'}
+[8.657753] (apriltag) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx\x1b[0m\n'}
+[8.681508] (apriltag) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx\x1b[0m\n'}
+[8.681858] (-) TimerEvent: {}
+[8.734136] (apriltag) StdoutLine: {'line': b'[ 85%] Built target apriltag_py_docstrings\n'}
+[8.765636] (apriltag) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o\x1b[0m\n'}
+[8.782390] (-) TimerEvent: {}
+[8.883695] (-) TimerEvent: {}
+[8.984421] (-) TimerEvent: {}
+[9.085276] (-) TimerEvent: {}
+[9.186057] (-) TimerEvent: {}
+[9.286744] (-) TimerEvent: {}
+[9.387520] (-) TimerEvent: {}
+[9.487835] (-) TimerEvent: {}
+[9.588594] (-) TimerEvent: {}
+[9.690688] (-) TimerEvent: {}
+[9.791055] (-) TimerEvent: {}
+[9.891398] (-) TimerEvent: {}
+[9.992289] (-) TimerEvent: {}
+[10.097218] (-) TimerEvent: {}
+[10.197850] (-) TimerEvent: {}
+[10.298399] (-) TimerEvent: {}
+[10.398714] (-) TimerEvent: {}
+[10.499698] (-) TimerEvent: {}
+[10.600469] (-) TimerEvent: {}
+[10.701242] (-) TimerEvent: {}
+[10.801703] (-) TimerEvent: {}
+[10.903397] (-) TimerEvent: {}
+[10.991972] (apriltag) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable opencv_demo\x1b[0m\n'}
+[11.003954] (-) TimerEvent: {}
+[11.107794] (-) TimerEvent: {}
+[11.208167] (-) TimerEvent: {}
+[11.308562] (-) TimerEvent: {}
+[11.409345] (-) TimerEvent: {}
+[11.510361] (-) TimerEvent: {}
+[11.612387] (-) TimerEvent: {}
+[11.715386] (-) TimerEvent: {}
+[11.816020] (-) TimerEvent: {}
+[11.917334] (-) TimerEvent: {}
+[11.983775] (apriltag) StdoutLine: {'line': b'[ 90%] Built target opencv_demo\n'}
+[12.013555] (apriltag) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o\x1b[0m\n'}
+[12.017510] (-) TimerEvent: {}
+[12.118341] (-) TimerEvent: {}
+[12.221120] (-) TimerEvent: {}
+[12.279841] (apriltag) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared module apriltag.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.321524] (-) TimerEvent: {}
+[12.347506] (apriltag) StdoutLine: {'line': b'[ 95%] Built target apriltag.cpython-310-x86_64-linux-gnu\n'}
+[12.379933] (apriltag) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o\x1b[0m\n'}
+[12.422310] (-) TimerEvent: {}
+[12.504911] (apriltag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C executable apriltag_demo\x1b[0m\n'}
+[12.522440] (-) TimerEvent: {}
+[12.561210] (apriltag) StdoutLine: {'line': b'[100%] Built target apriltag_demo\n'}
+[12.588030] (apriltag) CommandEnded: {'returncode': 0}
+[12.588605] (apriltag) JobProgress: {'identifier': 'apriltag', 'progress': 'install'}
+[12.595872] (apriltag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nikita/turtlebot3_ws/src/build/apriltag'], 'cwd': '/home/nikita/turtlebot3_ws/src/build/apriltag', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nikita'), ('LC_TIME', 'kk_KZ.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nikita'), ('OLDPWD', '/home/nikita/turtlebot3_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'kk_KZ.UTF-8'), ('SYSTEMD_EXEC_PID', '10609'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install:/home/nikita/AMR_coding/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nikita'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nikita'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nikita-VirtualBox:@/tmp/.ICE-unix/1081,unix/nikita-VirtualBox:/tmp/.ICE-unix/1081'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'kk_KZ.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a2755afc_05b4_4a96_813d_93bc023ed91f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'kk_KZ.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.44A042'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.179'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_simulations:/home/nikita/turtlebot3_ws/install/turtlebot3_bringup:/home/nikita/turtlebot3_ws/install/turtlebot3_node:/home/nikita/turtlebot3_ws/install/turtlebot3_navigation2:/home/nikita/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs:/home/nikita/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/install/turtlebot3_description:/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'kk_KZ.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'kk_KZ.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'kk_KZ.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikita/turtlebot3_ws/src/build/apriltag'), ('TURTLEBOT3_MODEL', 'burger_cam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/nikita/{your_ws}/build/turtlebot3_gazebo:/home/nikita/{your_ws}/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikita/turtlebot3_ws/build/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/home/nikita/AMR_coding/install/webcam/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/turtle_distance_package/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/turtle_distance_node/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/trt_rect_pkg/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/publisher_node/lib/python3.10/site-packages:/home/nikita/AMR_coding/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'kk_KZ.UTF-8'), ('LC_PAPER', 'kk_KZ.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikita/turtlebot3_ws/install/turtlebot3:/home/nikita/turtlebot3_ws/install/turtlebot3_simulations:/home/nikita/turtlebot3_ws/install/turtlebot3_bringup:/home/nikita/turtlebot3_ws/install/turtlebot3_node:/home/nikita/turtlebot3_ws/install/turtlebot3_navigation2:/home/nikita/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikita/turtlebot3_ws/install/turtlebot3_msgs:/home/nikita/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/install/turtlebot3_description:/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples:/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble')]), 'shell': False}
+[12.610018] (apriltag) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[12.610300] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/apriltag.h\n'}
+[12.610526] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/apriltag_math.h\n'}
+[12.610674] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/apriltag_pose.h\n'}
+[12.610845] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/debug_print.h\n'}
+[12.611017] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/doubles.h\n'}
+[12.611168] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/doubles_floats_impl.h\n'}
+[12.611345] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/floats.h\n'}
+[12.611485] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/g2d.h\n'}
+[12.611659] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/getopt.h\n'}
+[12.612079] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/homography.h\n'}
+[12.612159] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_types.h\n'}
+[12.612245] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_u8.h\n'}
+[12.612305] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_u8x3.h\n'}
+[12.612428] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_u8x4.h\n'}
+[12.612558] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/matd.h\n'}
+[12.612711] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/math_util.h\n'}
+[12.612860] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pam.h\n'}
+[12.612999] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pjpeg.h\n'}
+[12.613808] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pnm.h\n'}
+[12.613898] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/postscript_utils.h\n'}
+[12.613962] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pthreads_cross.h\n'}
+[12.614020] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/string_util.h\n'}
+[12.614101] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/svd22.h\n'}
+[12.614195] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/time_util.h\n'}
+[12.614257] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/timeprofile.h\n'}
+[12.614379] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/unionfind.h\n'}
+[12.614479] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/workerpool.h\n'}
+[12.614596] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/zarray.h\n'}
+[12.614687] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/zhash.h\n'}
+[12.614855] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/zmaxheap.h\n'}
+[12.617735] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag16h5.h\n'}
+[12.617831] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag25h9.h\n'}
+[12.617892] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag36h10.h\n'}
+[12.617949] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag36h11.h\n'}
+[12.618043] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagCircle21h7.h\n'}
+[12.618104] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagCircle49h12.h\n'}
+[12.618185] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagCustom48h12.h\n'}
+[12.618252] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagStandard41h12.h\n'}
+[12.618310] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagStandard52h13.h\n'}
+[12.618367] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/libapriltag.so.3.4.3\n'}
+[12.618464] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/libapriltag.so.3\n'}
+[12.618540] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/libapriltag.so\n'}
+[12.618671] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagTargets.cmake\n'}
+[12.618801] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagTargets-release.cmake\n'}
+[12.618863] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagConfig.cmake\n'}
+[12.618969] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagConfigVersion.cmake\n'}
+[12.619030] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/pkgconfig/apriltag.pc\n'}
+[12.619201] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so\n'}
+[12.619569] (apriltag) StdoutLine: {'line': b'-- Set runtime path of "/home/nikita/turtlebot3_ws/src/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.619668] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/bin/opencv_demo\n'}
+[12.620073] (apriltag) StdoutLine: {'line': b'-- Set runtime path of "/home/nikita/turtlebot3_ws/src/install/apriltag/bin/opencv_demo" to ""\n'}
+[12.620176] (apriltag) StdoutLine: {'line': b'-- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/bin/apriltag_demo\n'}
+[12.620501] (apriltag) StdoutLine: {'line': b'-- Set runtime path of "/home/nikita/turtlebot3_ws/src/install/apriltag/bin/apriltag_demo" to ""\n'}
+[12.623510] (apriltag) CommandEnded: {'returncode': 0}
+[12.624380] (-) TimerEvent: {}
+[12.656988] (apriltag) JobEnded: {'identifier': 'apriltag', 'rc': 0}
+[12.657679] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+[0.851s] Invoking command in '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:${AMENT_PREFIX_PATH} PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nikita/turtlebot3_ws/build/turtlebot3_autorace/build --no-deps symlink_data
+[1.190s] running develop
+[1.386s] running egg_info
+[1.387s] creating turtlebot3_autorace.egg-info
+[1.387s] writing turtlebot3_autorace.egg-info/PKG-INFO
+[1.387s] writing dependency_links to turtlebot3_autorace.egg-info/dependency_links.txt
+[1.387s] writing entry points to turtlebot3_autorace.egg-info/entry_points.txt
+[1.387s] writing requirements to turtlebot3_autorace.egg-info/requires.txt
+[1.387s] writing top-level names to turtlebot3_autorace.egg-info/top_level.txt
+[1.388s] writing manifest file 'turtlebot3_autorace.egg-info/SOURCES.txt'
+[1.389s] reading manifest file 'turtlebot3_autorace.egg-info/SOURCES.txt'
+[1.390s] writing manifest file 'turtlebot3_autorace.egg-info/SOURCES.txt'
+[1.392s] running build_ext
+[1.392s] Creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages/turtlebot3-autorace.egg-link (link to .)
+[1.393s] 
+[1.393s] Installed /home/nikita/turtlebot3_ws/build/turtlebot3_autorace
+[1.393s] running symlink_data
+[1.393s] creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index
+[1.393s] creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index/resource_index
+[1.393s] creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index/resource_index/packages
+[1.393s] symbolically linking /home/nikita/turtlebot3_ws/build/turtlebot3_autorace/resource/turtlebot3_autorace -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index/resource_index/packages
+[1.394s] symbolically linking /home/nikita/turtlebot3_ws/build/turtlebot3_autorace/package.xml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/turtlebot3_autorace
+[1.440s] Invoked command in '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace' returned '0': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:${AMENT_PREFIX_PATH} PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nikita/turtlebot3_ws/build/turtlebot3_autorace/build --no-deps symlink_data

@@ -1,0 +1,127 @@
+[0.020s] Invoking command in '/home/nikita/turtlebot3_ws/src/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake /home/nikita/turtlebot3_ws/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/src/install/apriltag
+[0.190s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.338s] -- Detecting C compile features - done
+[0.338s] -- Setting build type to 'Release' as none was specified.
+[0.339s] -- Looking for pthread.h
+[0.456s] -- Looking for pthread.h - found
+[0.456s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.570s] -- Found Threads: TRUE  
+[1.653s] -- The CXX compiler identification is GNU 11.4.0
+[1.667s] -- Detecting CXX compiler ABI info
+[1.786s] -- Detecting CXX compiler ABI info - done
+[1.805s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.805s] -- Detecting CXX compile features
+[1.805s] -- Detecting CXX compile features - done
+[1.805s] -- Configuring done
+[1.815s] -- Generating done
+[1.820s] -- Build files have been written to: /home/nikita/turtlebot3_ws/src/build/apriltag
+[1.831s] Invoked command in '/home/nikita/turtlebot3_ws/src/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake /home/nikita/turtlebot3_ws/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/src/install/apriltag
+[1.831s] Invoking command in '/home/nikita/turtlebot3_ws/src/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/nikita/turtlebot3_ws/src/build/apriltag -- -j8 -l8
+[1.900s] [  2%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[2.750s] [  4%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[3.015s] [  7%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[3.199s] [  9%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[3.349s] [ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[3.962s] [ 14%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[4.052s] [ 17%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[4.314s] [ 19%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[4.910s] [ 21%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[4.984s] [ 24%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pthreads_cross.c.o[0m
+[5.023s] [ 26%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[5.240s] [ 29%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[5.302s] [ 31%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[5.377s] [ 34%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[5.410s] [ 36%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[5.511s] [ 39%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[5.565s] [ 41%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[5.731s] [ 43%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[5.851s] [ 46%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[5.916s] [ 48%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[5.984s] [ 51%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[6.057s] [ 53%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[6.125s] [ 56%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[6.187s] [ 58%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[6.394s] [ 60%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[6.544s] [ 63%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[6.618s] [ 65%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[6.792s] [ 68%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[6.971s] [ 70%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[7.165s] [ 73%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[7.362s] [ 75%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[8.294s] [ 78%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[8.526s] [ 80%] [32m[1mLinking C shared library libapriltag.so[0m
+[8.630s] [ 80%] Built target apriltag
+[8.657s] [ 82%] [34m[1mGenerating apriltag_detect_docstring.h, apriltag_detect_docstring.cxx[0m
+[8.681s] [ 85%] [34m[1mGenerating apriltag_py_type_docstring.h, apriltag_py_type_docstring.cxx[0m
+[8.734s] [ 85%] Built target apriltag_py_docstrings
+[8.765s] [ 87%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[10.991s] [ 90%] [32m[1mLinking CXX executable opencv_demo[0m
+[11.983s] [ 90%] Built target opencv_demo
+[12.013s] [ 92%] [32mBuilding C object CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir/apriltag_pywrap.c.o[0m
+[12.279s] [ 95%] [32m[1mLinking C shared module apriltag.cpython-310-x86_64-linux-gnu.so[0m
+[12.347s] [ 95%] Built target apriltag.cpython-310-x86_64-linux-gnu
+[12.380s] [ 97%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[12.505s] [100%] [32m[1mLinking C executable apriltag_demo[0m
+[12.561s] [100%] Built target apriltag_demo
+[12.588s] Invoked command in '/home/nikita/turtlebot3_ws/src/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/nikita/turtlebot3_ws/src/build/apriltag -- -j8 -l8
+[12.596s] Invoking command in '/home/nikita/turtlebot3_ws/src/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/nikita/turtlebot3_ws/src/build/apriltag
+[12.610s] -- Install configuration: "Release"
+[12.610s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/apriltag.h
+[12.610s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/apriltag_math.h
+[12.610s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/apriltag_pose.h
+[12.610s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/debug_print.h
+[12.610s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/doubles.h
+[12.611s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[12.611s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/floats.h
+[12.611s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/g2d.h
+[12.611s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/getopt.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/homography.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_types.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_u8.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_u8x3.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/image_u8x4.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/matd.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/math_util.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pam.h
+[12.612s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pjpeg.h
+[12.613s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pnm.h
+[12.613s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/postscript_utils.h
+[12.613s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/pthreads_cross.h
+[12.613s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/string_util.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/svd22.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/time_util.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/timeprofile.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/unionfind.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/workerpool.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/zarray.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/zhash.h
+[12.614s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/common/zmaxheap.h
+[12.617s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag16h5.h
+[12.617s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag25h9.h
+[12.617s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag36h10.h
+[12.617s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tag36h11.h
+[12.617s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagCircle21h7.h
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagCircle49h12.h
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagCustom48h12.h
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagStandard41h12.h
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/include/apriltag/tagStandard52h13.h
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/libapriltag.so.3.4.3
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/libapriltag.so.3
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/libapriltag.so
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagTargets.cmake
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagTargets-release.cmake
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagConfig.cmake
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/apriltag/cmake/apriltagConfigVersion.cmake
+[12.618s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/pkgconfig/apriltag.pc
+[12.619s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so
+[12.619s] -- Set runtime path of "/home/nikita/turtlebot3_ws/src/install/apriltag/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so" to ""
+[12.619s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/bin/opencv_demo
+[12.620s] -- Set runtime path of "/home/nikita/turtlebot3_ws/src/install/apriltag/bin/opencv_demo" to ""
+[12.620s] -- Installing: /home/nikita/turtlebot3_ws/src/install/apriltag/bin/apriltag_demo
+[12.620s] -- Set runtime path of "/home/nikita/turtlebot3_ws/src/install/apriltag/bin/apriltag_demo" to ""
+[12.623s] Invoked command in '/home/nikita/turtlebot3_ws/src/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikita/turtlebot3_ws/install/turtlebot3_teleop:/home/nikita/turtlebot3_ws/install/turtlebot3_example:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/nikita/turtlebot3_ws/src/build/apriltag

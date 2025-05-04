@@ -1,0 +1,25 @@
+[0.000000] (-) TimerEvent: {}
+[0.000921] (-) JobUnselected: {'identifier': 'apriltag'}
+[0.000999] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001025] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001047] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001068] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001089] (-) JobUnselected: {'identifier': 'turtlebot3_autorace'}
+[0.001109] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_camera'}
+[0.001129] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_detect'}
+[0.001149] (-) JobUnselected: {'identifier': 'turtlebot3_autorace_mission'}
+[0.001169] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001189] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.001208] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.001229] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.001249] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.001269] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.001289] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.001309] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.001329] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.001348] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.001369] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.001395] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict([('apriltag', '/home/nikita/turtlebot3_ws/src/install/apriltag')])}
+[0.002984] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[0.032563] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 1}
+[0.044979] (-) EventReactorShutdown: {}

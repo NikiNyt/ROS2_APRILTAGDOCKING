@@ -1,0 +1,45 @@
+[0.033s] Invoking command in '/home/nikita/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake /home/nikita/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.291s] -- The CXX compiler identification is GNU 11.4.0
+[0.300s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.405s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.532s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.532s] -- Detecting CXX compile features
+[0.535s] -- Detecting CXX compile features - done
+[0.537s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.755s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.847s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.989s] -- Configuring done
+[0.990s] -- Generating done
+[0.992s] -- Build files have been written to: /home/nikita/turtlebot3_ws/build/turtlebot3_cartographer
+[1.000s] Invoked command in '/home/nikita/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake /home/nikita/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/install/turtlebot3_cartographer
+[1.002s] Invoking command in '/home/nikita/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/nikita/turtlebot3_ws/build/turtlebot3_cartographer -- -j8 -l8
+[1.073s] Invoked command in '/home/nikita/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --build /home/nikita/turtlebot3_ws/build/turtlebot3_cartographer -- -j8 -l8
+[1.074s] Invoking command in '/home/nikita/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/nikita/turtlebot3_ws/build/turtlebot3_cartographer
+[1.111s] -- Install configuration: ""
+[1.111s] -- Execute custom install script
+[1.111s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.112s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.112s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.115s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.125s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.143s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.149s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.160s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.174s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.183s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.198s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.224s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.236s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.253s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.267s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.296s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.321s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.343s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.366s] -- Symlinking: /home/nikita/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.399s] Invoked command in '/home/nikita/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble /usr/bin/cmake --install /home/nikita/turtlebot3_ws/build/turtlebot3_cartographer

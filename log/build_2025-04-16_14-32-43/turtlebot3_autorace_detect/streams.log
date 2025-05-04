@@ -1,0 +1,82 @@
+[2.598s] Invoking command in '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build
+[3.073s] running develop
+[3.351s] Removing /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3-autorace-detect.egg-link (link to .)
+[3.421s] Invoked command in '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect' returned '0': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build
+[3.422s] Invoking command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_detect build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data --force
+[3.801s] running egg_info
+[3.803s] writing ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/PKG-INFO
+[3.804s] writing dependency_links to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/dependency_links.txt
+[3.804s] writing entry points to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/entry_points.txt
+[3.805s] writing requirements to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/requires.txt
+[3.805s] writing top-level names to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/top_level.txt
+[3.808s] reading manifest file '../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[3.814s] writing manifest file '../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[3.814s] running build
+[3.815s] running build_py
+[3.815s] creating /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build
+[3.815s] creating /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib
+[3.816s] creating /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.816s] copying turtlebot3_autorace_detect/__init__.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.816s] copying turtlebot3_autorace_detect/detect_intersection_sign.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.817s] copying turtlebot3_autorace_detect/detect_construction_sign.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.817s] copying turtlebot3_autorace_detect/detect_level_crossing_sign.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.817s] copying turtlebot3_autorace_detect/detect_traffic_light.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.824s] copying turtlebot3_autorace_detect/detect_apriltag_node.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.824s] copying turtlebot3_autorace_detect/detect_parking_sign.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.824s] copying turtlebot3_autorace_detect/detect_level_crossing.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.824s] copying turtlebot3_autorace_detect/detect_tunnel_sign.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.824s] copying turtlebot3_autorace_detect/detect_lane.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect
+[3.824s] running install
+[3.824s] running install_lib
+[3.824s] creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.825s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/__init__.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.825s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_intersection_sign.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.825s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_construction_sign.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.827s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_level_crossing_sign.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.827s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_traffic_light.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.828s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_apriltag_node.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.828s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_parking_sign.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.828s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_level_crossing.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.828s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_tunnel_sign.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.828s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build/lib/turtlebot3_autorace_detect/detect_lane.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect
+[3.828s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/__init__.py to __init__.cpython-310.pyc
+[3.829s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_intersection_sign.py to detect_intersection_sign.cpython-310.pyc
+[3.832s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_construction_sign.py to detect_construction_sign.cpython-310.pyc
+[3.834s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_level_crossing_sign.py to detect_level_crossing_sign.cpython-310.pyc
+[3.836s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_traffic_light.py to detect_traffic_light.cpython-310.pyc
+[3.843s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_apriltag_node.py to detect_apriltag_node.cpython-310.pyc
+[3.843s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_parking_sign.py to detect_parking_sign.cpython-310.pyc
+[3.845s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_level_crossing.py to detect_level_crossing.cpython-310.pyc
+[3.849s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_tunnel_sign.py to detect_tunnel_sign.cpython-310.pyc
+[3.851s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect/detect_lane.py to detect_lane.cpython-310.pyc
+[3.855s] running install_data
+[3.855s] copying resource/turtlebot3_autorace_detect -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/ament_index/resource_index/packages
+[3.856s] copying package.xml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect
+[3.856s] copying launch/detect_traffic_light.launch.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[3.860s] copying launch/detect_sign.launch.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[3.861s] copying launch/detect_lane.launch.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[3.861s] copying launch/detect_level_crossing.launch.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/launch
+[3.862s] copying param/lane/lane.yaml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/lane
+[3.862s] copying param/level/level.yaml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/level
+[3.862s] copying param/traffic_light/traffic_light.yaml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/param/traffic_light
+[3.863s] copying image/stop.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.863s] copying image/parking.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.863s] copying image/right.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.867s] copying image/intersection.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.867s] copying image/construction.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.868s] copying image/left.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.868s] copying image/tunnel.png -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect/image
+[3.872s] running install_egg_info
+[3.872s] Copying ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect-1.2.1-py3.10.egg-info
+[3.876s] running install_scripts
+[3.926s] Installing detect_apriltag script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.926s] Installing detect_construction_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.927s] Installing detect_intersection_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.927s] Installing detect_lane script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.927s] Installing detect_level_crossing script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.927s] Installing detect_level_crossing_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.927s] Installing detect_parking_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.928s] Installing detect_traffic_light script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.928s] Installing detect_tunnel_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[3.928s] writing list of installed files to '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/install.log'
+[4.151s] Invoked command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect' returned '0': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_detect build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data --force

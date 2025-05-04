@@ -1,0 +1,44 @@
+[2.620s] Invoking command in '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build
+[3.151s] running develop
+[3.384s] Removing /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3-autorace-camera.egg-link (link to .)
+[3.475s] Invoked command in '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera' returned '0': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build
+[3.475s] Invoking command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_camera build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/install.log --single-version-externally-managed install_data --force
+[3.907s] running egg_info
+[3.910s] writing ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/PKG-INFO
+[3.913s] writing dependency_links to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/dependency_links.txt
+[3.913s] writing entry points to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/entry_points.txt
+[3.914s] writing requirements to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/requires.txt
+[3.914s] writing top-level names to ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/top_level.txt
+[3.917s] reading manifest file '../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[3.923s] writing manifest file '../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info/SOURCES.txt'
+[3.924s] running build
+[3.924s] running build_py
+[3.924s] creating /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build
+[3.924s] creating /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib
+[3.924s] creating /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[3.924s] copying turtlebot3_autorace_camera/__init__.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[3.924s] copying turtlebot3_autorace_camera/image_projection.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[3.925s] copying turtlebot3_autorace_camera/image_compensation.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera
+[3.926s] running install
+[3.927s] running install_lib
+[3.928s] creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[3.928s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera/__init__.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[3.928s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera/image_projection.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[3.928s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build/lib/turtlebot3_autorace_camera/image_compensation.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera
+[3.929s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera/__init__.py to __init__.cpython-310.pyc
+[3.929s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera/image_projection.py to image_projection.cpython-310.pyc
+[3.935s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera/image_compensation.py to image_compensation.cpython-310.pyc
+[3.935s] running install_data
+[3.935s] copying resource/turtlebot3_autorace_camera -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/share/ament_index/resource_index/packages
+[3.935s] copying package.xml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera
+[3.935s] copying launch/extrinsic_camera_calibration.launch.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/launch
+[3.935s] copying launch/intrinsic_camera_calibration.launch.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/launch
+[3.936s] copying calibration/extrinsic_calibration/projection.yaml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/calibration/extrinsic_calibration
+[3.936s] copying calibration/extrinsic_calibration/compensation.yaml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/share/turtlebot3_autorace_camera/calibration/extrinsic_calibration
+[3.936s] running install_egg_info
+[3.937s] Copying ../../../build/turtlebot3_autorace_camera/turtlebot3_autorace_camera.egg-info to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages/turtlebot3_autorace_camera-1.2.1-py3.10.egg-info
+[3.938s] running install_scripts
+[3.975s] Installing image_compensation script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/turtlebot3_autorace_camera
+[3.975s] Installing image_projection script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/turtlebot3_autorace_camera
+[3.976s] writing list of installed files to '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/install.log'
+[4.176s] Invoked command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_camera' returned '0': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_camera build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_camera/install.log --single-version-externally-managed install_data --force

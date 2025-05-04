@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/PKG-INFO
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/SOURCES.txt
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/dependency_links.txt
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/entry_points.txt
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/requires.txt
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/top_level.txt
+../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/zip-safe
+resource/turtlebot3_autorace
+turtlebot3_autorace/__init__.py

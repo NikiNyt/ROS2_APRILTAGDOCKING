@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: turtlebot3-autorace
+Version: 1.2.1
+Summary: ROS 2 meta packages for turtlebot3_autorace
+Home-page: UNKNOWN
+Author: [('Gilbert', 'kkjong@robotis.com'), ('Leon Jung', 'N/A'), ('Hyungyu Kim', 'kimhg@robotis.com'), ('ChanHyeong Lee', 'dddoggi1207@gmail.com'), ('Jun', 'junyeong4321@gmail.com')]
+Author-email: kkjong@robotis.com, N/A, kimhg@robotis.com, dddoggi1207@gmail.com, junyeong4321@gmail.com
+Maintainer: Pyo
+Maintainer-email: pyo@robotis.com
+License: Apache 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

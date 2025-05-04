@@ -1,0 +1,28 @@
+[0.701s] Invoking command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_mission': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_mission build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/install.log --single-version-externally-managed install_data
+[0.967s] running egg_info
+[0.968s] writing ../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/PKG-INFO
+[0.968s] writing dependency_links to ../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/dependency_links.txt
+[0.968s] writing entry points to ../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/entry_points.txt
+[0.968s] writing requirements to ../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/requires.txt
+[0.969s] writing top-level names to ../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/top_level.txt
+[0.970s] reading manifest file '../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/SOURCES.txt'
+[0.971s] writing manifest file '../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info/SOURCES.txt'
+[0.972s] running build
+[0.972s] running build_py
+[0.972s] copying turtlebot3_autorace_mission/docking_mission.py -> /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/build/lib/turtlebot3_autorace_mission
+[0.973s] running install
+[0.973s] running install_lib
+[0.974s] copying /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/build/lib/turtlebot3_autorace_mission/docking_mission.py -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission
+[0.975s] byte-compiling /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission/docking_mission.py to docking_mission.cpython-310.pyc
+[0.976s] running install_data
+[0.976s] copying package.xml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/share/turtlebot3_autorace_mission
+[0.977s] running install_egg_info
+[0.978s] removing '/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission-1.2.1-py3.10.egg-info' (and everything under it)
+[0.979s] Copying ../../../build/turtlebot3_autorace_mission/turtlebot3_autorace_mission.egg-info to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages/turtlebot3_autorace_mission-1.2.1-py3.10.egg-info
+[0.980s] running install_scripts
+[1.002s] Installing apriltag_docking script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission
+[1.003s] Installing avoid_construction script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission
+[1.003s] Installing control_lane script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission
+[1.003s] Installing mission_tunnel script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/turtlebot3_autorace_mission
+[1.003s] writing list of installed files to '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/install.log'
+[1.029s] Invoked command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_mission' returned '0': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_mission/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_mission build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_mission/install.log --single-version-externally-managed install_data

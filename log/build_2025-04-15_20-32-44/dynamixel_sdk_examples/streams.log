@@ -1,0 +1,78 @@
+[0.040s] Invoking command in '/home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nikita/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.252s] -- The CXX compiler identification is GNU 11.4.0
+[0.266s] -- Detecting C compiler ABI info
+[0.362s] -- Detecting C compiler ABI info - done
+[0.373s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.374s] -- Detecting C compile features
+[0.374s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.480s] -- Detecting CXX compiler ABI info - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.492s] -- Detecting CXX compile features
+[0.492s] -- Detecting CXX compile features - done
+[0.496s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.701s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.781s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.826s] -- Found dynamixel_sdk: 3.8.3 (/home/nikita/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.827s] -- Found dynamixel_sdk_custom_interfaces: 3.8.3 (/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.875s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.882s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.894s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.911s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.973s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.054s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.061s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.193s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.231s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.304s] -- Looking for pthread.h
+[1.398s] -- Looking for pthread.h - found
+[1.398s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.493s] -- Found Threads: TRUE  
+[1.592s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[1.597s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.709s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.710s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.710s] -- Configured cppcheck include dirs: /home/nikita/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[1.710s] -- Configured cppcheck exclude dirs and/or files: 
+[1.712s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.712s] -- Configured cpplint exclude dirs and/or files: 
+[1.712s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.713s] -- Added test 'lint_cmake' to check CMake code style
+[1.714s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.716s] -- Added test 'uncrustify' to check C / C++ code style
+[1.716s] -- Configured uncrustify additional arguments: 
+[1.717s] -- Added test 'xmllint' to check XML markup files
+[1.720s] -- Configuring done
+[1.734s] -- Generating done
+[1.738s] -- Build files have been written to: /home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples
+[1.751s] Invoked command in '/home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nikita/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples
+[1.753s] Invoking command in '/home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[1.811s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[13.221s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[14.361s] [100%] Built target read_write_node
+[14.383s] Invoked command in '/home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[14.385s] Invoking command in '/home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples
+[14.398s] -- Install configuration: ""
+[14.399s] -- Execute custom install script
+[14.399s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[14.413s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[14.426s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[14.439s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[14.452s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[14.464s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[14.477s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[14.492s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[14.505s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[14.526s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[14.539s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[14.553s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[14.565s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[14.579s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[14.592s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[14.605s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[14.617s] -- Symlinking: /home/nikita/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[14.636s] Invoked command in '/home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/nikita/turtlebot3_ws/install/dynamixel_sdk:/home/nikita/AMR_coding/install/webcam:/home/nikita/AMR_coding/install/turtle_distance_package:/home/nikita/AMR_coding/install/turtle_distance_node:/home/nikita/AMR_coding/install/trt_rect_pkg:/home/nikita/AMR_coding/install/publisher_node:/home/nikita/AMR_coding/install/my_package:/opt/ros/humble LD_LIBRARY_PATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/home/nikita/turtlebot3_ws/build/turtlebot3_gazebo:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/nikita/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/nikita/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nikita/turtlebot3_ws/build/dynamixel_sdk_examples

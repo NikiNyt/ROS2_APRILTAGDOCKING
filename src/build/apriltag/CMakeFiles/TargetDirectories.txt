@@ -1,0 +1,11 @@
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/apriltag.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/apriltag_py_docstrings.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/apriltag.cpython-310-x86_64-linux-gnu.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/apriltag_demo.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/opencv_demo.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/edit_cache.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/rebuild_cache.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/list_install_components.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/install.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/install/local.dir
+/home/nikita/turtlebot3_ws/src/build/apriltag/CMakeFiles/install/strip.dir

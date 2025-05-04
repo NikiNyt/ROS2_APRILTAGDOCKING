@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating turtlebot3_autorace.egg-info
+writing turtlebot3_autorace.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_autorace.egg-info/dependency_links.txt
+writing entry points to turtlebot3_autorace.egg-info/entry_points.txt
+writing requirements to turtlebot3_autorace.egg-info/requires.txt
+writing top-level names to turtlebot3_autorace.egg-info/top_level.txt
+writing manifest file 'turtlebot3_autorace.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot3_autorace.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_autorace.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/lib/python3.10/site-packages/turtlebot3-autorace.egg-link (link to .)
+
+Installed /home/nikita/turtlebot3_ws/build/turtlebot3_autorace
+running symlink_data
+creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index
+creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index/resource_index
+creating /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index/resource_index/packages
+symbolically linking /home/nikita/turtlebot3_ws/build/turtlebot3_autorace/resource/turtlebot3_autorace -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/ament_index/resource_index/packages
+symbolically linking /home/nikita/turtlebot3_ws/build/turtlebot3_autorace/package.xml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace/share/turtlebot3_autorace

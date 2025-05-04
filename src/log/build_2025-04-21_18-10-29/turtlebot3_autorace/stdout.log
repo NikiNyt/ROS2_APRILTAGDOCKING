@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info
+writing ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/dependency_links.txt
+writing entry points to ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/entry_points.txt
+writing requirements to ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/requires.txt
+writing top-level names to ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/top_level.txt
+writing manifest file '../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nikita/turtlebot3_ws/src/build/turtlebot3_autorace/build
+creating /home/nikita/turtlebot3_ws/src/build/turtlebot3_autorace/build/lib
+creating /home/nikita/turtlebot3_ws/src/build/turtlebot3_autorace/build/lib/turtlebot3_autorace
+copying turtlebot3_autorace/__init__.py -> /home/nikita/turtlebot3_ws/src/build/turtlebot3_autorace/build/lib/turtlebot3_autorace
+running install
+running install_lib
+creating /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/lib/python3.10/site-packages/turtlebot3_autorace
+copying /home/nikita/turtlebot3_ws/src/build/turtlebot3_autorace/build/lib/turtlebot3_autorace/__init__.py -> /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/lib/python3.10/site-packages/turtlebot3_autorace
+byte-compiling /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/lib/python3.10/site-packages/turtlebot3_autorace/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/share/ament_index
+creating /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/share/ament_index/resource_index
+creating /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/share/ament_index/resource_index/packages
+copying resource/turtlebot3_autorace -> /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/share/ament_index/resource_index/packages
+copying package.xml -> /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/share/turtlebot3_autorace
+running install_egg_info
+Copying ../../build/turtlebot3_autorace/turtlebot3_autorace.egg-info to /home/nikita/turtlebot3_ws/src/install/turtlebot3_autorace/lib/python3.10/site-packages/turtlebot3_autorace-1.2.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/nikita/turtlebot3_ws/src/build/turtlebot3_autorace/install.log'

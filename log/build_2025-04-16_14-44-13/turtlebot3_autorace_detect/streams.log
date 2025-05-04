@@ -1,0 +1,30 @@
+[2.462s] Invoking command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_detect build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data
+[2.928s] running egg_info
+[2.929s] writing ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/PKG-INFO
+[2.930s] writing dependency_links to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/dependency_links.txt
+[2.930s] writing entry points to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/entry_points.txt
+[2.930s] writing requirements to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/requires.txt
+[2.931s] writing top-level names to ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/top_level.txt
+[2.934s] reading manifest file '../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[2.940s] writing manifest file '../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info/SOURCES.txt'
+[2.941s] running build
+[2.941s] running build_py
+[2.941s] running install
+[2.941s] running install_lib
+[2.946s] running install_data
+[2.946s] copying package.xml -> /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/share/turtlebot3_autorace_detect
+[2.947s] running install_egg_info
+[2.949s] removing '/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect-1.2.1-py3.10.egg-info' (and everything under it)
+[2.950s] Copying ../../../build/turtlebot3_autorace_detect/turtlebot3_autorace_detect.egg-info to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages/turtlebot3_autorace_detect-1.2.1-py3.10.egg-info
+[2.951s] running install_scripts
+[2.983s] Installing detect_apriltag script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.983s] Installing detect_construction_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.983s] Installing detect_intersection_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.984s] Installing detect_lane script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.984s] Installing detect_level_crossing script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.984s] Installing detect_level_crossing_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.984s] Installing detect_parking_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.985s] Installing detect_traffic_light script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.985s] Installing detect_tunnel_sign script to /home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/turtlebot3_autorace_detect
+[2.987s] writing list of installed files to '/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/install.log'
+[3.173s] Invoked command in '/home/nikita/turtlebot3_ws/src/turtlebot3_autorace/turtlebot3_autorace_detect' returned '0': PYTHONPATH=/home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikita/turtlebot3_ws/install/turtlebot3_autorace_detect/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_autorace_detect build --build-base /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/build install --record /home/nikita/turtlebot3_ws/build/turtlebot3_autorace_detect/install.log --single-version-externally-managed install_data
