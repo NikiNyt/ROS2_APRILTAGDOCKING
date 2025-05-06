@@ -11,3 +11,13 @@ dock at a specified location using visual markers, specifically AprilTags.
  If you want for this model to be chosen every time you open new terminal, you can use this command.
 
  `echo 'export TURTLEBOT3_MODEL=burger_cam' >> ~/.bashrc`
+
+- Next launching gazebo simulation.
+
+  `ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py`
+
+- Activation of Rviz for LIDAR based map creating and rqt for detection node work observing
+ '''
+ `rqt`
+ `ros2 launch turtlebot3_bringup rviz2.launch.py`
+ '''
