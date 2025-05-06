@@ -3,11 +3,9 @@
 (burger) robot using ROS2 and Gazebo simulation. The goal is to enable the robot to autonomously navigate and
 dock at a specified location using visual markers, specifically AprilTags.
 
-- Active Branches: noetic, humble, jazzy, main
-- Legacy Branches: *-devel
-
-## Open Source Projects Related to TurtleBot3
-- [turtlebot3](https://github.com/ROBOTIS-GIT/turtlebot3)
+## How to start the code
+- initialize turtlebot3 model (burger with camera module in example) to use in simulation by printing following command in console.
+'export TURTLEBOT3_MODEL=burger_cam'
 - [turtlebot3_msgs](https://github.com/ROBOTIS-GIT/turtlebot3_msgs)
 - [turtlebot3_simulations](https://github.com/ROBOTIS-GIT/turtlebot3_simulations)
 - [turtlebot3_manipulation](https://github.com/ROBOTIS-GIT/turtlebot3_manipulation)
